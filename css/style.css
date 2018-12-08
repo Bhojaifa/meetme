@@ -6,20 +6,19 @@ html {
 	scroll-behavior: smooth;
 }
 
-
  .navigation {
      width: 70px;
 }
 
- .navigation .navbar {
+ .navbar {
      background: #fff !important;
 }
- .navigation .navbar .nav-item .nav-link {
+ .navbar .nav-item .nav-link {
      color: #333;
      margin-right: 10px;
 }
 
-.navigation .navbar .nav-item .nav-link:hover{
+.navbar .nav-item .nav-link:hover{
 	color: #00b4d9 !important;
 }
 
