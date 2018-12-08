@@ -1,0 +1,327 @@
+body {
+     font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+ .navigation {
+     width: 70px;
+}
+
+ .navigation .navbar {
+     background: #fff !important;
+}
+ .navigation .navbar .nav-item .nav-link {
+     color: #333;
+     margin-right: 10px;
+}
+
+.navigation .navbar .nav-item .nav-link:hover{
+	color: #00b4d9 !important;
+}
+
+
+ .navbar-list {
+     font-size: 14px;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+ .header-wrapper {
+     background: url(../images/office.jpg) no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 100%;
+}
+ #header {
+     color: #fff;
+     overflow: hidden;
+     position: relative;
+}
+ .overlay {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0px;
+     left: 0px;
+     background: #0c0808;
+     opacity: 0.6;
+}
+ .contents {
+     padding: 175px 0px 120px;
+}
+ .contents h5 {
+     font-size: 67px;
+     font-family: 'Shadows Into Light', cursive;
+}
+ .contents h2 {
+     font-size: 68px;
+     text-transform: uppercase;
+     font-weight: bold;
+     letter-spacing: 5px;
+}
+ .contents p {
+     font-family: Shadows Into Light;
+     font-size: 25px;
+     letter-spacing: 3px;
+}
+ .icon a {
+     font-size: 30px;
+     color: #fff;
+     letter-spacing: 11px;
+}
+ .icon a:hover{
+     color: blue;
+}
+ .img img{
+     border: 8px solid #fff;
+     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+ .content p {
+     font-size: 14px;
+     color: #666;
+}
+
+ .about-profile li {
+     list-style-type: none;
+     font-size: 14px;
+}
+}
+ .about-profile {
+     position: relative;
+     margin: 20px 0 20px 0;
+}
+ .about-profile .pro-title {
+     font-weight: 700;
+     color: #040404;
+     position: relative;
+     width: 120px;
+     display: inline-block;
+     margin-bottom: 5px;
+}
+ .about-profile .pro-title:after {
+     position: absolute;
+     content: ':';
+     color: #040404;
+     font-size: 14px;
+     left: 77px;
+}
+ .services {
+     background-color: #F0F0F0;
+}
+ .section-padding {
+     padding: 60px 0;
+}
+ .selection-title {
+     color: #252525;
+     font-size: 38px;
+     letter-spacing: 1px;
+     line-height: 1;
+     margin-bottom: 48px;
+     padding: 0 10px;
+     position: relative;
+     font-weight: bold;
+}
+ .services .item {
+     background-color: #fff;
+     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+ .item .icon {
+     font-size: 33px;
+     text-align: center;
+     color: darkblue;
+}
+ .item .icon i{
+     margin-top: 30px;
+     padding: 5px;
+}
+ .sevice-content h5 {
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 19px;
+     text-align: center;
+     color: #666;
+     padding: 5px;
+     margin-top: 8px;
+}
+ .sevice-content p {
+     color: #666;
+     text-align: center;
+     font-size: 16px;
+     padding: 2px;
+     padding-bottom: 50px;
+}
+/*Resume*/
+ .education {
+     position: relative;
+}
+ .content-title h3 i {
+     font-size: 32px;
+     color: blue;
+     margin-left: -8px;
+}
+ .content-title h3 .edu{
+     font-weight: bold;
+     font-size: 20px;
+     margin-left: 16px;
+     color: #888;
+}
+ .content-text {
+     background: #f2f2f2;
+     padding: 20px;
+}
+ .content-text h3{
+     font-size: 16px;
+     font-weight: bold;
+     color: #888;
+}
+ .content-text p {
+     font-size: 13px;
+     color: #888;
+     margin-top: 10px;
+     padding: 5px;
+}
+ .counter-section {
+     background: url(../images/bg-1.jpg);
+     overflow: hidden;
+     position: relative;
+}
+ .counter-section:before {
+     content: '';
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.5);
+}
+ .counter-section .counter {
+     padding: 30px 0;
+}
+ .counter-section .counter .icon {
+     margin-bottom: 30px;
+}
+ .counter-section .counter .icon i {
+     font-size: 48px;
+     color: #00b4d9;
+}
+ .counter-section .counter p {
+     font-size: 18px;
+     text-transform: uppercase;
+     color: #fff;
+     font-weight: 400;
+     letter-spacing: 1px;
+     margin: 30px 0;
+}
+ .counter-section .counter .counterUp {
+     color: #fff;
+     font-size: 42px;
+     margin-top: 15px;
+     font-weight: 700;
+}
+ .contact-form-area {
+     background: #fff;
+     box-shadow: 0 0 30px #ededed;
+     padding: 60px 40px;
+}
+ .contact-form-area h2 {
+     font-size: 18px;
+     text-transform: uppercase;
+     font-weight: bold;
+     color: #666;
+}
+ #contact {
+     position: relative;
+     overflow: hidden;
+}
+ #contact #contactForm {
+     margin-top: 30px;
+}
+ .form-control {
+     width: 100%;
+     margin-bottom: 20px;
+     font-size: 14px;
+     border-radius: 0;
+     -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+     transition: all 0.3s;
+     padding: 8px 10px;
+     border: 1px solid #e1e1e1;
+}
+ .form-control:focus {
+     box-shadow: none;
+     outline: none;
+}
+ .contact-form-area {
+     background: #fff;
+     box-shadow: 0 0 30px #ededed;
+     padding: 60px 40px;
+}
+ .contact-form-area h2 {
+     font-size: 18px;
+     text-transform: uppercase;
+}
+ .footer-right-contact {
+     padding: 4px;
+     border: 1px solid #e1e1e1;
+     margin-top: 30px;
+}
+ .footer-right-contact .single-contact {
+     margin: 10px 22px;
+     padding: 3px 55px;
+     position: relative;
+     color: #666;
+}
+ .footer-right-contact .single-contact p {
+     margin-bottom: 10px;
+     color: #666;
+     font-size: 14px;
+}
+ .footer-right-contact .contact-icon {
+     background: #00b4d9;
+     color: #fff;
+     border-radius: 50%;
+     font-size: 20px;
+     height: 40px;
+     left: 0;
+     padding-top: 8px;
+     position: absolute;
+     text-align: center;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     transform: translateY(-50%);
+     width: 40px;
+}
+ .submit-button button {
+     font-size: 14px;
+     color: #fff;
+}
+/* Footer */
+ .footer-area {
+     background: #1C1C20;
+}
+ .footer-area .footer-text p {
+     font-size: 13px;
+     margin-top: 20px;
+     color: #fff;
+}
+/* ScrollToTop */
+ .back-to-top {
+     position: fixed;
+     bottom: 18px;
+     right: 15px;
+     text-decoration: none;
+}
+ .back-to-top i {
+     display: block;
+     font-size: 22px;
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     color: #fff;
+     background: #00b4d9;
+     border-radius: 2px;
+     text-align: center;
+}
