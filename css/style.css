@@ -304,6 +304,13 @@ html {
      font-size: 14px;
      color: #fff;
 }
+
+.google-map {
+     height: 100%;
+     width: 100%;
+}
+
+
 /* Footer */
  .footer-area {
      background: #1C1C20;
